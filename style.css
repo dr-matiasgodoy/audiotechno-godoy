@@ -21,13 +21,24 @@ img {
     width: 100px;
     height: 100px;
     align-items: center;
+    transition-duration: .3s;
 
+}
+
+.logo-header:hover {
+    transform: scale(1.5);
 }
 
 .logo-footer{
     object-fit: fill;
     width: 50px;
     height: 50px;
+    transition-duration: .3s;
+}
+
+.logo-footer:hover{
+    transform: scale(1.1);
+
 }
 
 
@@ -70,6 +81,7 @@ h1 { color: rgb(133, 127, 127);
     font-size: 10px;
     text-decoration: none;
     color: blueviolet;
+    transition-duration: .3s;
 }
 .naveg:hover {
     text-decoration: underline;
@@ -140,7 +152,7 @@ h1 { color: rgb(133, 127, 127);
     text-decoration: underline;
     
     text-shadow: 1px 1px 2px black;
-    margin-bottom: 10px;
+    margin-bottom: 16px;
 }
 
 
@@ -149,6 +161,9 @@ h1 { color: rgb(133, 127, 127);
     font-size: 0.5rem;
     text-decoration: none;
     text-align: center;
+    margin: 10px;
+    transition-duration: .3s;
+    
 
     
 }
@@ -162,7 +177,7 @@ h1 { color: rgb(133, 127, 127);
 
 .listado-categorias {
     width: 100%;
-    height: 220px;
+    height: 240px;
     background-color: white;
     display: flex;
     flex-direction: column;
@@ -195,6 +210,11 @@ h1 { color: rgb(133, 127, 127);
 .foto-auri {
     width: 100%;
     height: 100%;
+    transition-duration: .3s;
+}
+
+.foto-auri:hover {
+    transform: scale(.8) rotate(8deg);
 }
 
 
@@ -273,6 +293,7 @@ footer {
     border-radius: 4px;
     transition: transform 0.3s ease-in-out;
     border: solid 1px rgb(255, 255, 255);
+    transition-duration: .3s;
 
 
 }
@@ -392,7 +413,7 @@ footer {
     }
 
     .categoria-linea {
-        font-size: 16px;
+        font-size: 12px;
 
     }
 
