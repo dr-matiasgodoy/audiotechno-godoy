@@ -289,7 +289,7 @@ footer {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: aquamarine;
+    background-color: blueviolet;
     border-radius: 4px;
     transition: transform 0.3s ease-in-out;
     border: solid 1px rgb(255, 255, 255);
@@ -299,8 +299,19 @@ footer {
 }
 
 .item-hover:hover {
+    transform: scale(.8) rotate(8deg);
     filter: opacity(0.9);
     transform: scale(1.04);
+}
+
+.imagen-marca {
+    transition-duration: .3s;
+    
+}
+
+.imagen-marca:hover {
+    transform: scale(.8)
+
 }
 
 
