@@ -26,7 +26,7 @@ img {
 }
 
 .logo-header:hover {
-    transform: scale(1.5);
+    transform: scale(1.2);
 }
 
 .logo-footer{
@@ -139,6 +139,7 @@ h1 { color: rgb(133, 127, 127);
     text-decoration: none;
     text-align: justify;
     margin-bottom: 10px;
+    margin-top: 1rem;
     padding: 10px;
 
 }
@@ -334,15 +335,31 @@ footer {
 }
 
 
+/* Estilos Nosotros */
 
+.p-nosotros {
+    color: white;
+    font-size: .9rem;
+    text-decoration: none;
+    text-align: justify;
+  
 
+}
 
+.foto-nosotros {
+    margin-bottom: 1rem;
+    transition-duration: .3s;
+}
+
+.foto-nosotros:hover {
+    transform: scale(.8) rotate(8deg);
+}
 
 
 
 @media only screen and (max-width: 480px) {
  
-         h1 { font-size: 14px;
+         h1 { font-size: 1rem;
          }
      
          .h2-style {
@@ -354,11 +371,7 @@ footer {
             margin: 10px
          }
      
-         .p-style {
-             font-size: 10px;
-     
-         }
-     
+            
          .categoria-linea {
              font-size: 10px;
      
@@ -376,28 +389,25 @@ footer {
          }
 
          
-
+           
 
 
 }
 @media only screen and (min-width: 481px) and (max-width: 978px) {
   
-    h1 { font-size: 20px;
+    h1 { font-size: 1.5rem;
     }
 
     .h2-style {
-        font-size: 16px;
+        font-size: 1rem;
     }
 
     .claseh2 {
         font-size: 10px;
-        margin: 16px;
+        margin: 1rem;
     }
 
-    .p-style {
-        font-size: 10px;
-
-    }
+  
 
     .categoria-linea {
         font-size: 10px;
@@ -415,12 +425,14 @@ footer {
 
     }
 
-
+    .p-nosotros {
+            font-size: 1rem;
+    }
 }
 
 @media only screen and (min-width: 978px) {
    
-    h1 { font-size: 24px;
+    h1 { font-size: 2rem;
     }
 
     .h2-style {
@@ -428,22 +440,18 @@ footer {
     }
 
     .claseh2 {
-        font-size: 20px;
-        margin: 16px;
+        font-size: 1.5rem;
+        margin: 1rem;
     }
 
-    .p-style {
-        font-size: 16px;
-
-    }
 
     .categoria-linea {
-        font-size: 16px;
+        font-size: 1rem;
 
     }
 
     .titulo-footer {
-        font-size: 18px;
+        font-size: 1.5rem;
 
     }
 
@@ -452,6 +460,10 @@ footer {
 
 
     }
+
+    .p-nosotros {
+        font-size: 1rem;
+}
          
 }
 
