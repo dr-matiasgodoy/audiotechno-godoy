@@ -1,0 +1,17 @@
+@import "../base/mixins";
+@import "../base/variables";
+
+.p-nosotros {
+	color: white;
+	font-size: .9rem;
+	text-decoration: none;
+	text-align: justify;
+
+	.foto-nosotros {
+		margin-bottom: 1rem;
+		transition-duration: .3s;
+		&:hover {
+			transform: scale(.8) rotate(8deg);
+		}
+	}
+}

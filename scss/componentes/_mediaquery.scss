@@ -1,0 +1,82 @@
+@import "../base/mixins";
+@import "../base/variables";
+
+@media only screen and (max-width: 480px) {
+	h1 {
+		font-size: 1.5rem;
+	}
+	.h2-style {
+		font-size: 1.1rem
+	}
+	.claseh2 {
+		font-size: 1rem;
+		margin: 10px;
+	}
+	.categoria-linea {
+		font-size: 0.625rem;
+	}
+	.titulo-footer {
+		font-size: 0.563rem;
+	}
+	.nav-footer-lista {
+		font-size: 0.563rem;
+	}
+
+    .p-style {
+        font-size: .9rem;
+
+    }
+}
+@media only screen and (min-width: 481px) and (max-width: 978px) {
+	h1 {
+		font-size: 1.7rem;
+	}
+	.h2-style {
+		font-size: 1.5rem;
+	}
+	.claseh2 {
+		font-size: 1.5rem;
+		margin: 1rem;
+	}
+	.categoria-linea {
+		font-size: 0.625rem;
+	}
+	.titulo-footer {
+		font-size: 0.625rem;
+	}
+	.nav-footer-lista {
+		font-size: 0.625rem;
+	}
+
+    .p-style {
+        font-size: 1rem;
+
+    }
+}
+@media only screen and (min-width: 978px) {
+	h1 {
+		font-size: 2rem;
+	}
+	.h2-style {
+		font-size: 1.7rem;
+	}
+	.claseh2 {
+		font-size: 1.7rem;
+		margin: 1rem;
+	}
+	.categoria-linea {
+		font-size: 1rem;
+	}
+	.titulo-footer {
+		font-size: .9rem;
+	}
+	.nav-footer-lista {
+		font-size: .9srem;
+	}
+
+    .p-style {
+        font-size: 1.2rem;
+
+    }
+	
+}

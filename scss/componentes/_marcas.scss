@@ -1,0 +1,46 @@
+@import "../base/mixins";
+@import "../base/variables";
+
+.main-marca {
+	background-color: $color-texto;
+
+	.marca-h2 {
+		text-align: center;
+		color: $color-titulos;
+		text-decoration: underline;
+		font-size: 1.5rem;
+		margin-top: 1rem;
+		margin-bottom: 2px;
+		text-shadow: $text-shadow;
+	}
+	.grid-marcas {
+		@include grid-column ;
+		gap: 20px;
+	}
+	
+	.item {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		background-color: $color-footer;
+		border-radius: 4px;
+		transition: transform 0.3s ease-in-out;
+		border: solid 1px rgb(255, 255, 255);
+		transition-duration: .3s;
+	}
+	
+	.item-hover {
+		&:hover {
+			transform: scale(.8) rotate(8deg);
+			filter: opacity(0.9);
+			transform: scale(1.04);
+		}
+	}
+	.imagen-marca {
+		transition-duration: .3s;
+		&:hover {
+			transform: scale(.8);
+		}
+	}
+
+}

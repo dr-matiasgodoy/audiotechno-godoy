@@ -1,0 +1,32 @@
+@import "../base/mixins";
+@import "../base/variables";
+
+.titulo-footer {
+    color: $color-titulos;
+	font-size: 1rem;
+	text-decoration: underline;
+    margin-top: .4rem;
+	text-shadow: $text-shadow;
+	
+}
+
+.footer-container {
+    @include flex-footer;
+	align-items: center;
+}
+
+.listado-container {
+	@include flex-footer;
+	margin-left: -2rem;
+}
+
+.nav-footer {
+	list-style-type: none;
+	display: inline;
+	padding-right: 10px;
+}
+.nav-footer-lista {
+	color: $color-footer;
+	text-decoration: none;
+	font-size: 1rem;
+}
