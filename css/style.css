@@ -198,11 +198,12 @@ img {
   text-decoration: none;
   text-align: justify;
 }
-.p-nosotros .foto-nosotros {
+
+.foto-nosotros {
   margin-bottom: 1rem;
   transition-duration: 0.3s;
 }
-.p-nosotros .foto-nosotros:hover {
+.foto-nosotros:hover {
   transform: scale(0.8) rotate(8deg);
 }
 
