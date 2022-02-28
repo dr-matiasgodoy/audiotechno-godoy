@@ -26,6 +26,21 @@
         font-size: .9rem;
 
     }
+
+	.h2-contacto {
+		text-align: center;
+		font-size: 1rem;
+	}
+
+	.text-start {
+		font-size: .9rem;
+
+	}
+
+	.form-group {
+		font-size: .9rem;
+	}
+
 }
 @media only screen and (min-width: 481px) and (max-width: 978px) {
 	h1 {
@@ -52,6 +67,17 @@
         font-size: 1rem;
 
     }
+	.h2-contacto {
+		font-size: 1.5rem;
+	}
+	.text-start {
+		font-size: 1rem;
+
+	}
+
+	.form-group {
+		font-size: 1rem;
+	}
 }
 @media only screen and (min-width: 978px) {
 	h1 {
@@ -78,5 +104,18 @@
         font-size: 1.2rem;
 
     }
+
+	.h2-contacto {
+		font-size: 1.7rem;
+	}
 	
+	.text-start {
+		font-size: 1.2rem;
+
+	}
+
+	.form-group {
+		font-size: 1.2rem;
+	}
+
 }

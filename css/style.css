@@ -215,6 +215,11 @@ img {
   padding: 20px;
   box-shadow: 0px 0px 10px 3px grey;
 }
+.contact-form .h2-contacto {
+  color: #857f7f;
+  text-decoration: underline;
+  text-shadow: 1px 1px 2px #857f7f;
+}
 
 @media only screen and (max-width: 480px) {
   h1 {
@@ -243,6 +248,19 @@ img {
   }
 
   .p-style {
+    font-size: 0.9rem;
+  }
+
+  .h2-contacto {
+    text-align: center;
+    font-size: 1rem;
+  }
+
+  .text-start {
+    font-size: 0.9rem;
+  }
+
+  .form-group {
     font-size: 0.9rem;
   }
 }
@@ -275,6 +293,18 @@ img {
   .p-style {
     font-size: 1rem;
   }
+
+  .h2-contacto {
+    font-size: 1.5rem;
+  }
+
+  .text-start {
+    font-size: 1rem;
+  }
+
+  .form-group {
+    font-size: 1rem;
+  }
 }
 @media only screen and (min-width: 978px) {
   h1 {
@@ -303,6 +333,18 @@ img {
   }
 
   .p-style {
+    font-size: 1.2rem;
+  }
+
+  .h2-contacto {
+    font-size: 1.7rem;
+  }
+
+  .text-start {
+    font-size: 1.2rem;
+  }
+
+  .form-group {
     font-size: 1.2rem;
   }
 }

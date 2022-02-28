@@ -1,14 +1,15 @@
 @import "../base/mixins";
 @import "../base/variables";
+@import "../base/maps";
 
 .p-nosotros {
-	color: white;
+	color: map-get($nosotros, bg-nosotros);
 	font-size: .9rem;
-	text-decoration: none;
-	text-align: justify;
+	text-decoration: map-get($nosotros, decoration);
+	text-align: map-get($nosotros, align);
 }
 .foto-nosotros {
-	margin-bottom: 1rem;
+	margin-bottom: map-get($nosotros, margin-abajo);
 	transition-duration: .3s;
 	&:hover {
 		transform: scale(.8) rotate(8deg);
