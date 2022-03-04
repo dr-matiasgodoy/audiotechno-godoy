@@ -51,6 +51,9 @@ img {
   margin-bottom: 5px;
   text-shadow: 1px 1px 2px #857f7f;
 }
+.barraheader .titulo {
+  color: blueviolet;
+}
 .barraheader .loguito {
   width: 40px;
   height: 40px;
@@ -66,7 +69,7 @@ img {
   margin-bottom: 1rem;
 }
 .presentacion .h2-style {
-  color: #857f7f;
+  color: blueviolet;
   text-decoration: underline;
   font-size: 1.5rem;
   margin-top: 0.9rem;
@@ -92,7 +95,7 @@ img {
   justify-content: center;
 }
 .listado-categorias .claseh2 {
-  color: #857f7f;
+  color: blueviolet;
   text-decoration: underline;
   font-size: 1.5rem;
   margin-top: 0.9rem;
@@ -121,7 +124,7 @@ img {
 }
 
 .titulo-footer {
-  color: #857f7f;
+  color: blueviolet;
   font-size: 1rem;
   text-decoration: underline;
   margin-top: 0.4rem;
@@ -147,7 +150,7 @@ img {
 }
 
 .nav-footer-lista {
-  color: blueviolet;
+  color: #857f7f;
   text-decoration: none;
   font-size: 1rem;
 }
@@ -155,40 +158,45 @@ img {
 .main-marca {
   background-color: white;
 }
-.main-marca .marca-h2 {
+
+.marca-h2 {
   text-align: center;
-  color: #857f7f;
+  color: blueviolet;
   text-decoration: underline;
   font-size: 1.5rem;
   margin-top: 1rem;
   margin-bottom: 2px;
   text-shadow: 1px 1px 2px #857f7f;
 }
-.main-marca .grid-marcas {
+
+.grid-marcas {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
   grid-auto-rows: minmax(150px, auto);
   gap: 20px;
 }
-.main-marca .item {
+
+.item {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: blueviolet;
+  background-color: #857f7f;
   border-radius: 4px;
   transition: transform 0.3s ease-in-out;
   border: solid 1px white;
   transition-duration: 0.3s;
 }
-.main-marca .item-hover:hover {
+
+.item-hover:hover {
   transform: scale(0.8) rotate(8deg);
   filter: opacity(0.9);
   transform: scale(1.04);
 }
-.main-marca .imagen-marca {
+
+.imagen-marca {
   transition-duration: 0.3s;
 }
-.main-marca .imagen-marca:hover {
+.imagen-marca:hover {
   transform: scale(0.8);
 }
 
@@ -226,7 +234,7 @@ img {
 }
 .main-tienda .tienda-h2 {
   text-align: center;
-  color: #857f7f;
+  color: blueviolet;
   text-decoration: underline;
   font-size: 1.5rem;
   margin-top: 1rem;

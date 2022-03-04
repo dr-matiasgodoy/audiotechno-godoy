@@ -2,7 +2,7 @@
 @import "../base/variables";
 
 .titulo-footer {
-    color: $color-titulos;
+    color: $color-footer;
 	font-size: 1rem;
 	text-decoration: underline;
     margin-top: .4rem;
@@ -26,7 +26,7 @@
 	padding-right: 10px;
 }
 .nav-footer-lista {
-	color: $color-footer;
+	color: $color-titulos;
 	text-decoration: none;
 	font-size: 1rem;
 }

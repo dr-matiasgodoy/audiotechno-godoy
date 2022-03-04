@@ -3,10 +3,10 @@
 
 .main-marca {
 	background-color: $color-texto;
-
+}
 	.marca-h2 {
 		text-align: center;
-		color: $color-titulos;
+		color: $color-footer;
 		text-decoration: underline;
 		font-size: 1.5rem;
 		margin-top: 1rem;
@@ -22,7 +22,7 @@
 		display: flex;
 		align-items: center;
 		justify-content: center;
-		background-color: $color-footer;
+		background-color: $color-titulos;
 		border-radius: 4px;
 		transition: transform 0.3s ease-in-out;
 		border: solid 1px rgb(255, 255, 255);
@@ -43,4 +43,4 @@
 		}
 	}
 
-}
+
