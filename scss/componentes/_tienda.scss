@@ -15,9 +15,8 @@
     }
 
         .page-content {
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: space-evenly;
+        @include grid-column;
+        gap: 20px;
             
 	}
 
@@ -27,14 +26,12 @@
     }
 
     .product-container:hover {
-        box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+        box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.836);
     }
 
     .tienda-h3-titulo {
         font-size: 1rem;
         font-weight: bold;
-
-
     }
 
     .button-add {
@@ -59,4 +56,9 @@
    .flex-h3{
        @include flex-footer;
        align-items: center;
+   }
+
+   .imagen-tienda {
+       height: 200px;
+
    }
