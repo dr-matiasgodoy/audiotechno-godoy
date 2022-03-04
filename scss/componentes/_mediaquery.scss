@@ -41,6 +41,18 @@
 		font-size: .9rem;
 	}
 
+	.tienda-h3-titulo {
+		font-size: .9rem;
+
+	}
+
+	.imagen-tienda {
+		width: 200px;
+		height: 200px;
+		
+		
+	}
+
 }
 @media only screen and (min-width: 481px) and (max-width: 978px) {
 	h1 {
@@ -78,6 +90,17 @@
 	.form-group {
 		font-size: 1rem;
 	}
+
+	.tienda-h3-titulo {
+		font-size: 1rem;
+		text-align: center;
+
+	}
+	.imagen-tienda {
+		width: 250px;
+		height: 250px;
+				
+	}
 }
 @media only screen and (min-width: 978px) {
 	h1 {
@@ -97,7 +120,7 @@
 		font-size: .9rem;
 	}
 	.nav-footer-lista {
-		font-size: .9srem;
+		font-size: .9rem;
 	}
 
     .p-style {
@@ -118,4 +141,16 @@
 		font-size: 1.2rem;
 	}
 
+	.tienda-h3-titulo {
+		font-size: 1.1rem;
+		text-align: center;
+
+	}
+
+	.imagen-tienda {
+		width: 300px;
+		height: 300px;
+		
+		
+	}
 }
