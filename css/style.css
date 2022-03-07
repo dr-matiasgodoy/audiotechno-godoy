@@ -1,3 +1,4 @@
+/* Estilos Generales */
 * {
   box-sizing: border-box;
   margin: 0;
@@ -14,6 +15,7 @@ img {
   object-fit: fill;
 }
 
+/* Estilos logo */
 .logo-header {
   object-fit: fill;
   width: 100px;
@@ -34,6 +36,8 @@ img {
 .logo-footer:hover {
   transform: scale(1.1);
 }
+
+/* Estilos Header */
 
 .barraheader {
   display: flex;
@@ -64,6 +68,7 @@ img {
   margin-top: 20px;
 }
 
+/* Estilos Main */
 .presentacion {
   width: 100%;
   margin-bottom: 1rem;
@@ -123,6 +128,8 @@ img {
   transform: scale(0.8) rotate(8deg);
 }
 
+/* Estilos Footer */
+
 .titulo-footer {
   color: blueviolet;
   font-size: 1rem;
@@ -155,6 +162,7 @@ img {
   font-size: 1rem;
 }
 
+/* Estilos Marca */
 .main-marca {
   background-color: white;
 }
@@ -200,6 +208,8 @@ img {
   transform: scale(0.8);
 }
 
+/* Estilos Nosotros */
+
 .p-nosotros {
   color: white;
   font-size: 0.9rem;
@@ -215,6 +225,8 @@ img {
   transform: scale(0.8) rotate(8deg);
 }
 
+/* Estilos Contacto */
+
 .contact-form {
   background: rgba(0, 0, 0, 0.6);
   color: white;
@@ -224,11 +236,12 @@ img {
   box-shadow: 0px 0px 10px 3px grey;
 }
 .contact-form .h2-contacto {
-  color: #857f7f;
+  color: blueviolet;
   text-decoration: underline;
   text-shadow: 1px 1px 2px #857f7f;
 }
 
+/* Estilos Tienda */
 .main-tienda {
   background-color: white;
 }
@@ -284,6 +297,7 @@ img {
   height: 200px;
 }
 
+/* Media Query */
 @media only screen and (max-width: 480px) {
   h1 {
     font-size: 1.5rem;
