@@ -2,6 +2,8 @@
 @import "../base/variables";
 @import "../base/maps";
 
+/* Estilos Nosotros */
+
 .p-nosotros {
 	color: map-get($nosotros, bg-nosotros);
 	font-size: .9rem;

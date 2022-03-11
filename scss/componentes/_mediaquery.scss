@@ -1,6 +1,8 @@
 @import "../base/mixins";
 @import "../base/variables";
 
+/* Estilos MediaQuerys*/
+
 @media only screen and (max-width: 480px) {
 	h1 {
 		font-size: 1.5rem;

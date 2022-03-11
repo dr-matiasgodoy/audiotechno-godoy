@@ -1,6 +1,8 @@
 @import "../base/mixins";
 @import "../base/variables";
 
+/* Estilos Header */
+
 .barraheader {
 	@include flex-column;
 		margin-bottom: 1rem;

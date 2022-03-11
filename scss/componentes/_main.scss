@@ -1,6 +1,8 @@
 @import "../base/mixins";
 @import "../base/variables";
 
+/* Estilos Main */
+
 .presentacion {
 	width: 100%;
 	margin-bottom: 1rem;
@@ -28,7 +30,6 @@
 
 }
 
-// color: rgb(133, 127, 127)
 .listado-categorias {
 	width: 100%;
 	background-color: $color-texto;
